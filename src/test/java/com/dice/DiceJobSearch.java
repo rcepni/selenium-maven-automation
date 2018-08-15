@@ -1,5 +1,6 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -65,6 +66,8 @@ public class DiceJobSearch {
 		}else{
 			System.out.println("No worries! This is not the end of world. You will find something else.");
 		}
+		
+		System.out.println("TEST COMPLETED -  " + LocalDateTime.now());
 		
 	}
 	
